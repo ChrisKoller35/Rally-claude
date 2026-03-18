@@ -1,0 +1,140 @@
+[18:08:25.737] ======================================================================
+[18:08:25.737] RALLY DEEP SCAN - Suche nach RightSight-Deaktivierung
+[18:08:25.738] ======================================================================
+[18:08:25.738] 
+[18:08:25.738] === Logitech Software Check ===
+[18:08:27.073]   Laufende Logitech-Prozesse:
+[18:08:27.073]     ProcessName           Id Path
+[18:08:27.074]     -----------           -- ----
+[18:08:27.074]     LogiSyncHandler    11196
+[18:08:27.074]     LogiSyncMiddleware  6316
+[18:08:27.074]     LogiSyncProxy       6264
+[18:08:27.074]     LogiSyncStub        4584
+[18:08:27.967]   Keine Logitech-Software in Registry gefunden
+[18:08:27.967] 
+[18:08:27.968] === USB Geraete-Info ===
+[18:08:29.992]   Kameras:
+[18:08:29.993]     FriendlyName : HP 5MP Camera
+[18:08:29.993]     InstanceId   : USB\VID_04F2&PID_B82D&MI_00\6&1BF92334&0&0000
+[18:08:29.993]     Status       : OK
+[18:08:29.993]     
+[18:08:29.993]     FriendlyName : Logi Rally Camera
+[18:08:29.993]     InstanceId   : USB\VID_046D&PID_0881&MI_00\9&335A81DE&0&0000
+[18:08:29.993]     Status       : OK
+[18:08:29.993]     
+[18:08:29.993]     FriendlyName : HoverCam Solo8+
+[18:08:29.993]     InstanceId   : USB\VID_2894&PID_0029&MI_00\7&37D97755&0&0000
+[18:08:29.993]     Status       : OK
+[18:08:29.993]     
+[18:08:29.993]     FriendlyName : HP IR Camera
+[18:08:29.993]     InstanceId   : USB\VID_04F2&PID_B82D&MI_02\6&1BF92334&0&0002
+[18:08:29.993]     Status       : OK
+[18:08:31.686]   Logitech/Rally Geraete:
+[18:08:31.686]     FriendlyName : Logi Rally Audio
+[18:08:31.687]     InstanceId   : USB\VID_046D&PID_0885&MI_00\9&43782FA&0&0000
+[18:08:31.687]     Status       : OK
+[18:08:31.687]     
+[18:08:31.687]     FriendlyName : Logi Rally Input Device
+[18:08:31.687]     InstanceId   : USB\VID_046D&PID_0881&MI_02\9&335A81DE&0&0002
+[18:08:31.687]     Status       : OK
+[18:08:31.687]     
+[18:08:31.687]     FriendlyName : Logi Rally WinUSB
+[18:08:31.688]     InstanceId   : USB\VID_046D&PID_0881&MI_03\9&335A81DE&0&0003
+[18:08:31.688]     Status       : OK
+[18:08:31.688]     
+[18:08:31.688]     FriendlyName : Freisprechtelefon mit Echoausschaltung (Logi Rally Audio)
+[18:08:31.688]     InstanceId   : SWD\MMDEVAPI\{0.0.0.00000000}.{140565B1-40DA-49F9-8B3B-B187A1730
+[18:08:31.688]     736}
+[18:08:31.688]     Status       : OK
+[18:08:31.688]     
+[18:08:31.688]     FriendlyName : Logi Rally Camera
+[18:08:31.689]     InstanceId   : USB\VID_046D&PID_0881&MI_00\9&335A81DE&0&0000
+[18:08:31.689]     Status       : OK
+[18:08:31.689]     
+[18:08:31.689]     FriendlyName : Logi Rally Table Hub
+[18:08:31.689]     InstanceId   : USB\VID_046D&PID_088F\7&20F5F031&0&2
+[18:08:31.689]     Status       : OK
+[18:08:31.689]     
+[18:08:31.689]     FriendlyName : Freisprechtelefon mit Echoausschaltung (Logi Rally Audio)
+[18:08:31.689]     InstanceId   : SWD\MMDEVAPI\{0.0.1.00000000}.{C611C74E-4ECE-401C-821A-AFD937C5D
+[18:08:31.689]     55B}
+[18:08:31.689]     Status       : OK
+[18:08:31.689] 
+[18:08:31.690] ======================================================================
+[18:08:31.690] COLLECTION 0 - Usage Page 0xFF00 (Logitech Proprietaer)
+[18:08:31.690] ======================================================================
+[18:08:31.705]   Verbunden!
+[18:08:31.706] 
+[18:08:31.706] === Feature Reports auf Collection 0 ===
+[18:08:31.707]   Feature 0x1A [6 Bytes]: 24 03 4C 00 6F 00
+[18:08:31.708]   => 1 Feature Reports mit Daten gefunden
+[18:08:31.708] 
+[18:08:31.709] === RightSight-spezifische Befehle testen ===
+[18:08:31.859]   HID++ Short 0x10 SubID=0x0A -> (keine Antwort)
+[18:08:32.010]   HID++ Long 0x11 SubID=0x0A -> (keine Antwort)
+[18:08:32.162]   Report 0x0C Byte1=0x01 (RightSight Off?) -> 0A AA 00 00 00 00 00 00 00 00 00 00 00
+[18:08:32.314]   Report 0x0C Byte1=0x02 (RightSight Off?) -> 0A AA 00 00 00 00 00 00 00 00 00 00 00
+[18:08:32.466]   Report 0x0C Byte1=0xFF (RightSight Off?) -> 0A AA 00 00 00 00 00 00 00 00 00 00 00
+[18:08:32.618]   Report 0x0C Byte2=0x01 -> 0A AA 00 00 00 00 00 00 00 00 00 00 00
+[18:08:32.770]   Report 0x0C Byte2=0x02 -> 0A AA 00 00 00 00 00 00 00 00 00 00 00
+[18:08:32.922]   Report 0x0C Bytes=0x01,0x01 -> 0A AA 00 00 00 00 00 00 00 00 00 00 00
+[18:08:33.073]   Report 0x0D (Config?) -> (keine Antwort)
+[18:08:33.223]   Report 0x0E (Config?) -> (keine Antwort)
+[18:08:33.374]   Report 0x0F (Config?) -> (keine Antwort)
+[18:08:33.525]   Report 0x01 Payload=0x00 -> (keine Antwort)
+[18:08:33.676]   Report 0x01 Payload=0x01 -> (keine Antwort)
+[18:08:33.826]   Report 0x02 Payload=0x00 -> (keine Antwort)
+[18:08:33.977]   Report 0x02 Payload=0x01 -> (keine Antwort)
+[18:08:34.128]   Report 0x03 Payload=0x00 -> (keine Antwort)
+[18:08:34.279]   Report 0x03 Payload=0x01 -> (keine Antwort)
+[18:08:34.279] 
+[18:08:34.279] === Feature Report 0x1A Write-Test auf Collection 0 ===
+[18:08:34.280]   Original: 24 03 4C 00 6F 00
+[18:08:34.483]   ERFOLG! Byte 1: 0x03 -> 0x01 (haelt!)
+[18:08:34.583] 
+[18:08:34.584] ======================================================================
+[18:08:34.584] COLLECTION 1 - Usage Page 0xFF90 (Camera Control)
+[18:08:34.584] ======================================================================
+[18:08:34.605]   Verbunden!
+[18:08:34.605] 
+[18:08:34.605] === Feature Reports auf Collection 1 ===
+[18:08:34.607]   => 0 Feature Reports mit Daten gefunden
+[18:08:34.608] 
+[18:08:34.608] === Collection 1 (0xFF90) Camera Control Deep Scan ===
+[18:08:35.838]   Report 0x41 Dir=7 -> 40 21 00 00 00
+[18:08:47.586]   --- Payload-Variationen fuer bekannte Antwort-Reports ---
+[18:08:47.647]   Report 0x41 Dir=7 P2=0x00 P3=0x00 -> 40 21 00 00 00
+[18:08:49.143]   => 2 Antworten gefunden
+[18:08:49.143] 
+[18:08:49.144] ======================================================================
+[18:08:49.144] COLLECTION 2 - Usage Page 0xFF99 (Status/Config)
+[18:08:49.144] ======================================================================
+[18:08:49.162]   Verbunden!
+[18:08:49.162] 
+[18:08:49.162] === Feature Reports auf Collection 2 ===
+[18:08:49.164]   Feature 0x9A [65 Bytes]: 9A 00 00 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[18:08:49.165]   => 1 Feature Reports mit Daten gefunden
+[18:08:49.166] 
+[18:08:49.166] === Feature Report 0x9A Write-Test auf Collection 2 ===
+[18:08:49.166]   Original: 9A 00 00 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[18:08:51.940]   Kein Byte konnte dauerhaft geaendert werden
+[18:08:51.940] 
+[18:08:51.940] === UVC / DirectShow Check ===
+[18:08:52.025]   OpenCV verfuegbar: 4.13.0
+[18:08:52.025]   --- Backend: DSHOW ---
+[18:08:52.338]   Kamera 0: DSHOW 640x480 Pan=0 Tilt=0 Zoom=100
+[18:08:52.551]   Kamera 1: DSHOW 640x480 Pan=0 Tilt=0 Zoom=100
+[18:08:53.338]   Kamera 2: DSHOW 640x480 Pan=-90 Tilt=-90 Zoom=269
+[18:08:54.141]   --- Backend: MSMF ---
+[18:08:54.346]   Kamera 0: MSMF 640x480 Pan=0 Tilt=0 Zoom=100
+[18:08:58.729]   Kamera 1: MSMF 640x480 Pan=0 Tilt=0 Zoom=100
+[18:09:11.469]   Kamera 2: MSMF 640x480 Pan=0 Tilt=0 Zoom=100
+[18:09:11.781]   --- Backend: ANY ---
+[18:09:11.849]   Kamera 0: MSMF 640x480 Pan=0 Tilt=0 Zoom=100
+[18:09:15.826]   Kamera 1: MSMF 640x480 Pan=0 Tilt=0 Zoom=100
+[18:09:27.966]   Kamera 2: MSMF 640x480 Pan=0 Tilt=0 Zoom=100
+[18:09:28.656] 
+[18:09:28.656] ======================================================================
+[18:09:28.656] SCAN ABGESCHLOSSEN
+[18:09:28.656] Log-Datei: C:\Users\KBZGB064908\Documents\Rally Claude\deep_scan_log.txt
+[18:09:28.656] ======================================================================

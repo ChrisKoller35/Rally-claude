@@ -1,0 +1,118 @@
+[19:35:39.734] Rally HID Discovery - 2026-03-17 19:35:39
+[19:35:39.735] Kamera: VID=0x046D PID=0x0881
+[19:35:39.735] 
+[19:35:39.735] === HID Collections ===
+[19:35:39.735]   [0] Usage Page 0xFF00, Usage 0x0001, Interface 2
+[19:35:39.735]   [1] Usage Page 0xFF90, Usage 0x0001, Interface 2
+[19:35:39.735]   [2] Usage Page 0xFF99, Usage 0x0003, Interface 2
+[19:35:39.735] 
+[19:35:39.737] --- Lausche 3s auf spontane Reports ---
+[19:35:42.764]   => 0 spontane Reports empfangen in 3s
+[19:35:42.764] 
+=== Feature Reports lesen (Collection 0) ===
+[19:35:42.768]   Feature 0x01 -> read error
+[19:35:42.869]   Feature 0x02 -> read error
+[19:35:42.970]   Feature 0x03 -> read error
+[19:35:43.070]   Feature 0x04 -> read error
+[19:35:43.171]   Feature 0x05 -> read error
+[19:35:43.271]   Feature 0x06 -> read error
+[19:35:43.372]   Feature 0x07 -> read error
+[19:35:43.472]   Feature 0x08 -> read error
+[19:35:43.573]   Feature 0x09 -> read error
+[19:35:43.673]   Feature 0x0A -> read error
+[19:35:43.774]   Feature 0x0B -> read error
+[19:35:43.875]   Feature 0x0C -> read error
+[19:35:43.975]   Feature 0x0D -> read error
+[19:35:44.076]   Feature 0x0E -> read error
+[19:35:44.177]   Feature 0x0F -> read error
+[19:35:44.277]   Feature 0x10 -> read error
+[19:35:44.378]   Feature 0x11 -> read error
+[19:35:44.479]   Feature 0x12 -> read error
+[19:35:44.579]   Feature 0x13 -> read error
+[19:35:44.680]   Feature 0x14 -> read error
+[19:35:44.781]   Feature 0x15 -> read error
+[19:35:44.882]   Feature 0x16 -> read error
+[19:35:44.983]   Feature 0x17 -> read error
+[19:35:45.084]   Feature 0x18 -> read error
+[19:35:45.185]   Feature 0x19 -> read error
+[19:35:45.286]   Feature 0x1A -> [3 Bytes]: 24 03 4C
+[19:35:45.387]   Feature 0x1B -> read error
+[19:35:45.488]   Feature 0x1C -> read error
+[19:35:45.588]   Feature 0x1D -> read error
+[19:35:45.689]   Feature 0x1E -> read error
+[19:35:45.789]   Feature 0x1F -> read error
+[19:35:45.890] 
+=> 1 Feature Reports lesbar
+[19:35:45.893] === Collection 0 (0xFF00) - Report IDs testen ===
+[19:35:45.893] Sende jeweils Report mit Null-Payload und lese Antwort...
+[19:35:45.994]   Report 0x01 -> Keine Antwort
+[19:35:46.295]   Report 0x02 -> Keine Antwort
+[19:35:46.596]   Report 0x03 -> Keine Antwort
+[19:35:46.898]   Report 0x04 -> Keine Antwort
+[19:35:47.199]   Report 0x05 -> Keine Antwort
+[19:35:47.500]   Report 0x06 -> Keine Antwort
+[19:35:47.801]   Report 0x07 -> Keine Antwort
+[19:35:48.102]   Report 0x08 -> Keine Antwort
+[19:35:48.403]   Report 0x09 -> Keine Antwort
+[19:35:48.704]   Report 0x0A -> Keine Antwort
+[19:35:49.006]   Report 0x0B -> Keine Antwort
+[19:35:49.309]   Report 0x0C -> Antwort [13 Bytes]: 0A AA 00 00 00 00 00 00 00 00 00 00 00
+[19:35:49.610]   Report 0x0D -> Keine Antwort
+[19:35:49.912]   Report 0x0E -> Keine Antwort
+[19:35:50.213]   Report 0x0F -> Keine Antwort
+[19:35:50.514]   Report 0x10 -> Keine Antwort
+[19:35:50.816]   Report 0x11 -> Keine Antwort
+[19:35:51.117]   Report 0x12 -> Keine Antwort
+[19:35:51.418]   Report 0x13 -> Keine Antwort
+[19:35:51.719]   Report 0x14 -> Keine Antwort
+[19:35:52.020]   Report 0x15 -> Keine Antwort
+[19:35:52.321]   Report 0x16 -> Keine Antwort
+[19:35:52.622]   Report 0x17 -> Keine Antwort
+[19:35:52.924]   Report 0x18 -> Keine Antwort
+[19:35:53.225]   Report 0x19 -> Keine Antwort
+[19:35:53.526]   Report 0x1A -> Keine Antwort
+[19:35:53.828]   Report 0x1B -> Keine Antwort
+[19:35:55.135]   Report 0x1C -> Keine Antwort
+[19:35:56.436]   Report 0x1D -> Keine Antwort
+[19:35:56.738]   Report 0x1E -> Keine Antwort
+[19:35:58.049]   Report 0x1F -> Keine Antwort
+[19:35:58.249] 
+=> 1 von 31 Report IDs bekamen Antwort
+[19:35:58.249] 
+=== Report 0x0C - Verschiedene Payloads testen ===
+[19:35:58.250] Report 0x0C ist der bekannte Steuer-Report.
+[19:35:58.250] Teste verschiedene Byte-Muster im ersten Datenbyte...
+[19:35:59.401]   0x0C [01]=00 -> Keine Antwort
+[19:36:00.852]   0x0C [01]=01 -> Keine Antwort
+[19:36:02.315]   0x0C [01]=02 -> Keine Antwort
+[19:36:03.768]   0x0C [01]=03 -> Keine Antwort
+[19:36:05.232]   0x0C [01]=04 -> Keine Antwort
+[19:36:06.696]   0x0C [01]=05 -> Keine Antwort
+[19:36:08.150]   0x0C [01]=10 -> Keine Antwort
+[19:36:09.612]   0x0C [01]=20 -> Keine Antwort
+[19:36:11.063]   0x0C [01]=40 -> Keine Antwort
+[19:36:12.515]   0x0C [01]=80 -> Keine Antwort
+[19:36:13.977]   0x0C [01]=FF -> Keine Antwort
+[19:36:15.293] 
+=> 0 Varianten bekamen Antwort
+[19:36:15.310] 
+=== Collection 1 (0xFF90) - Camera Control ===
+[19:36:15.464]   Report 0x40 -> Keine Antwort
+[19:36:15.917]   Report 0x41 -> Keine Antwort
+[19:36:16.368]   Report 0x42 -> Keine Antwort
+[19:36:16.820]   Report 0x43 -> Keine Antwort
+[19:36:17.272]   Report 0x44 -> Keine Antwort
+[19:36:17.723]   Report 0x45 -> Keine Antwort
+[19:36:18.174]   Report 0x46 -> Keine Antwort
+[19:36:18.626]   Report 0x47 -> Keine Antwort
+[19:36:19.077]   Report 0x48 -> Keine Antwort
+[19:36:19.377] 
+=> 0 Report IDs bekamen Antwort
+[19:36:19.377] 
+============================================================
+[19:36:19.378] Discovery abgeschlossen!
+[19:36:19.378] Vollständiges Log: C:\Users\KBZ071644\Work Folders\Documents\Rally claude\discovery_log.txt
+[19:36:19.378] 
+[19:36:19.378] Nächste Schritte:
+[19:36:19.378]   - Log analysieren: Welche Report IDs antworten?
+[19:36:19.378]   - Antworten vergleichen: gleich oder unterschiedlich?

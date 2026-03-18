@@ -1,0 +1,76 @@
+[19:57:29.375] Live Monitor gestartet - 2026-03-17 19:57:29
+[19:57:29.375] 
+[19:57:29.418] === Baselines lesen ===
+[19:57:29.420] Feature 0x9A Baseline: 9A 00 00 01 01 00 00 00 00 00...
+[19:57:29.421] Feature 0x1A Baseline: 9A 00 00 01 01 00 00 00 00 00...
+[19:57:29.421] 
+[19:57:29.421] === Ueberwachung laeuft (alle 0.5s Feature Reports + Input Reports) ===
+[19:57:29.421] 
+[19:57:33.982]   Probe 0x0C ACK: 0A AA 00 00 00 00 00 00 00 00 00 00 00
+[19:57:39.045]   Probe 0x0C ACK: 0A AA 00 00 00 00 00 00 00 00 00 00 00
+[19:57:39.045] --- 10s vergangen | Aenderungen: 0 | Inputs: Coll0=0, Coll1=0 ---
+[19:57:44.061] >>> INPUT Coll1 (0xFF90) #1: 40 12 00 00 00
+[19:57:44.113]   Probe 0x0C ACK: 0A AA 00 00 00 00 00 00 00 00 00 00 00
+[19:57:45.618] >>> INPUT Coll1 (0xFF90) #2: 40 12 00 00 00
+[19:57:47.120] >>> INPUT Coll1 (0xFF90) #3: 40 12 00 00 00
+[19:57:48.124] >>> INPUT Coll1 (0xFF90) #4: 40 12 00 00 00
+[19:57:49.179]   Probe 0x0C ACK: 0A AA 00 00 00 00 00 00 00 00 00 00 00
+[19:57:49.179] --- 20s vergangen | Aenderungen: 0 | Inputs: Coll0=0, Coll1=4 ---
+[19:57:49.679] >>> INPUT Coll1 (0xFF90) #5: 40 12 00 00 00
+[19:57:50.180] >>> INPUT Coll1 (0xFF90) #6: 40 12 00 00 00
+[19:57:54.240]   Probe 0x0C ACK: 0A AA 00 00 00 00 00 00 00 00 00 00 00
+[19:57:55.241] >>> INPUT Coll1 (0xFF90) #7: 40 12 00 00 00
+[19:57:58.249] >>> INPUT Coll1 (0xFF90) #8: 40 12 00 00 00
+[19:57:59.304]   Probe 0x0C ACK: 0A AA 00 00 00 00 00 00 00 00 00 00 00
+[19:57:59.304] --- 30s vergangen | Aenderungen: 0 | Inputs: Coll0=0, Coll1=8 ---
+[19:58:02.809] >>> INPUT Coll1 (0xFF90) #9: 40 12 00 00 00
+[19:58:04.365]   Probe 0x0C ACK: 0A AA 00 00 00 00 00 00 00 00 00 00 00
+[19:58:05.869] >>> INPUT Coll1 (0xFF90) #10: 40 12 00 00 00
+[19:58:08.374] >>> INPUT Coll1 (0xFF90) #11: 40 12 00 00 00
+[19:58:09.430]   Probe 0x0C ACK: 0A AA 00 00 00 00 00 00 00 00 00 00 00
+[19:58:09.430] --- 40s vergangen | Aenderungen: 0 | Inputs: Coll0=0, Coll1=11 ---
+[19:58:14.491]   Probe 0x0C ACK: 0A AA 00 00 00 00 00 00 00 00 00 00 00
+[19:58:19.558]   Probe 0x0C ACK: 0A AA 00 00 00 00 00 00 00 00 00 00 00
+[19:58:19.558] --- 50s vergangen | Aenderungen: 0 | Inputs: Coll0=0, Coll1=11 ---
+[19:58:24.621]   Probe 0x0C ACK: 0A AA 00 00 00 00 00 00 00 00 00 00 00
+[19:58:29.685]   Probe 0x0C ACK: 0A AA 00 00 00 00 00 00 00 00 00 00 00
+[19:58:29.685] --- 60s vergangen | Aenderungen: 0 | Inputs: Coll0=0, Coll1=11 ---
+[19:58:34.746]   Probe 0x0C ACK: 0A AA 00 00 00 00 00 00 00 00 00 00 00
+[19:58:39.811]   Probe 0x0C ACK: 0A AA 00 00 00 00 00 00 00 00 00 00 00
+[19:58:39.811] --- 70s vergangen | Aenderungen: 0 | Inputs: Coll0=0, Coll1=11 ---
+[19:58:44.870]   Probe 0x0C ACK: 0A AA 00 00 00 00 00 00 00 00 00 00 00
+[19:58:48.379] >>> INPUT Coll1 (0xFF90) #12: 40 12 00 00 00
+[19:58:49.934]   Probe 0x0C ACK: 0A AA 00 00 00 00 00 00 00 00 00 00 00
+[19:58:49.934] --- 80s vergangen | Aenderungen: 0 | Inputs: Coll0=0, Coll1=12 ---
+[19:58:51.435] >>> INPUT Coll1 (0xFF90) #13: 40 12 00 00 00
+[19:58:54.994]   Probe 0x0C ACK: 0A AA 00 00 00 00 00 00 00 00 00 00 00
+[19:58:55.495] >>> INPUT Coll1 (0xFF90) #14: 40 12 00 00 00
+[19:58:58.000] >>> INPUT Coll1 (0xFF90) #15: 40 12 00 00 00
+[19:58:59.005] >>> INPUT Coll1 (0xFF90) #16: 40 12 00 00 00
+[19:59:00.062]   Probe 0x0C ACK: 0A AA 00 00 00 00 00 00 00 00 00 00 00
+[19:59:00.062] --- 90s vergangen | Aenderungen: 0 | Inputs: Coll0=0, Coll1=16 ---
+[19:59:00.562] >>> INPUT Coll1 (0xFF90) #17: 40 13 00 00 00
+[19:59:04.068] >>> INPUT Coll1 (0xFF90) #18: 40 12 00 00 00
+[19:59:05.123]   Probe 0x0C ACK: 0A AA 00 00 00 00 00 00 00 00 00 00 00
+[19:59:05.624] >>> INPUT Coll1 (0xFF90) #19: 40 12 00 00 00
+[19:59:09.132] >>> INPUT Coll1 (0xFF90) #20: 40 12 00 00 00
+[19:59:10.188]   Probe 0x0C ACK: 0A AA 00 00 00 00 00 00 00 00 00 00 00
+[19:59:10.188] --- 100s vergangen | Aenderungen: 0 | Inputs: Coll0=0, Coll1=20 ---
+[19:59:15.249]   Probe 0x0C ACK: 0A AA 00 00 00 00 00 00 00 00 00 00 00
+[19:59:20.314]   Probe 0x0C ACK: 0A AA 00 00 00 00 00 00 00 00 00 00 00
+[19:59:20.314] --- 110s vergangen | Aenderungen: 0 | Inputs: Coll0=0, Coll1=20 ---
+[19:59:25.375]   Probe 0x0C ACK: 0A AA 00 00 00 00 00 00 00 00 00 00 00
+[19:59:30.439]   Probe 0x0C ACK: 0A AA 00 00 00 00 00 00 00 00 00 00 00
+[19:59:30.439] --- 120s vergangen | Aenderungen: 0 | Inputs: Coll0=0, Coll1=20 ---
+[19:59:35.500]   Probe 0x0C ACK: 0A AA 00 00 00 00 00 00 00 00 00 00 00
+[19:59:40.565]   Probe 0x0C ACK: 0A AA 00 00 00 00 00 00 00 00 00 00 00
+[19:59:40.565] --- 130s vergangen | Aenderungen: 0 | Inputs: Coll0=0, Coll1=20 ---
+[19:59:45.628]   Probe 0x0C ACK: 0A AA 00 00 00 00 00 00 00 00 00 00 00
+[19:59:50.691]   Probe 0x0C ACK: 0A AA 00 00 00 00 00 00 00 00 00 00 00
+[19:59:50.691] --- 140s vergangen | Aenderungen: 0 | Inputs: Coll0=0, Coll1=20 ---
+[19:59:55.752]   Probe 0x0C ACK: 0A AA 00 00 00 00 00 00 00 00 00 00 00
+[20:00:00.817]   Probe 0x0C ACK: 0A AA 00 00 00 00 00 00 00 00 00 00 00
+[20:00:00.817] --- 150s vergangen | Aenderungen: 0 | Inputs: Coll0=0, Coll1=20 ---
+[20:00:05.878]   Probe 0x0C ACK: 0A AA 00 00 00 00 00 00 00 00 00 00 00
+[20:00:10.941]   Probe 0x0C ACK: 0A AA 00 00 00 00 00 00 00 00 00 00 00
+[20:00:10.941] --- 160s vergangen | Aenderungen: 0 | Inputs: Coll0=0, Coll1=20 ---

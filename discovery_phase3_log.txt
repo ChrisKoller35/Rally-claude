@@ -1,0 +1,67 @@
+[19:40:22.079] Phase 3 - Feature Report 0x9A - 2026-03-17 19:40:22
+[19:40:22.079] 
+[19:40:22.091] === 1. Baseline: Feature Report 0x9A lesen ===
+[19:40:22.092] Original: 9A 00 00 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[19:40:22.092] 
+[19:40:22.092] Nicht-Null-Bytes:
+[19:40:22.092]   Byte  0 (0x00): Wert = 0x9A (154)
+[19:40:22.092]   Byte  3 (0x03): Wert = 0x01 (1)
+[19:40:22.092]   Byte  4 (0x04): Wert = 0x01 (1)
+[19:40:22.092] 
+[19:40:22.092] Stabilitaetscheck (5x lesen):
+[19:40:22.093]   Lesung 1: 9A 00 00 01 01 00 00 00 00 00... OK
+[19:40:22.395]   Lesung 2: 9A 00 00 01 01 00 00 00 00 00... OK
+[19:40:22.697]   Lesung 3: 9A 00 00 01 01 00 00 00 00 00... OK
+[19:40:22.999]   Lesung 4: 9A 00 00 01 01 00 00 00 00 00... OK
+[19:40:23.301]   Lesung 5: 9A 00 00 01 01 00 00 00 00 00... OK
+[19:40:23.601]   => Stabil
+[19:40:23.602] 
+[19:40:23.602] === 2. Schreibtest: Original zurueckschreiben ===
+[19:40:23.603] Schreiben erfolgreich!
+[19:40:23.604] Kontrolle: IDENTISCH
+[19:40:23.605] 
+[19:40:23.605] === 3. Byte 3 aendern (aktuell 0x01) ===
+[19:40:23.605] Hypothese: Byte 3 = RightSight an/aus
+[19:40:23.605] 
+[19:40:23.605] Setze Byte 3 = 0x00 ...
+[19:40:24.108]   Geschrieben. Zurueckgelesen: 9A 00 00 01 01 00 00 00 00 00...
+[19:40:24.108]   Vergleich mit gewuenschtem Wert: Byte 3: 00 -> 01
+[19:40:24.108]   Byte 3 hat sich NICHT geaendert (Kamera ignoriert es)
+[19:40:24.108]   Stelle Original wieder her...
+[19:40:24.410]   Wiederhergestellt: IDENTISCH
+[19:40:24.411] 
+[19:40:24.411] === 4. Byte 4 aendern (aktuell 0x01) ===
+[19:40:24.411] Hypothese: Byte 4 = Speaker Tracking an/aus
+[19:40:24.411] 
+[19:40:24.411] Setze Byte 4 = 0x00 ...
+[19:40:24.914]   Geschrieben. Zurueckgelesen: 9A 00 00 01 01 00 00 00 00 00...
+[19:40:24.914]   Vergleich: Byte 4: 00 -> 01
+[19:40:24.914]   Byte 4 hat sich NICHT geaendert
+[19:40:24.914]   Stelle Original wieder her...
+[19:40:25.217]   Wiederhergestellt: IDENTISCH
+[19:40:25.217] 
+[19:40:25.217] === 5. Bytes 3 UND 4 auf 0x00 setzen ===
+[19:40:25.217] Hypothese: Beide Features deaktivieren
+[19:40:25.217] 
+[19:40:25.217] Setze Byte 3=0x00, Byte 4=0x00 ...
+[19:40:25.720]   Geschrieben. Zurueckgelesen: 9A 00 00 01 01 00 00 00 00 00...
+[19:40:25.721]   Vergleich: Byte 3: 00 -> 01, Byte 4: 00 -> 01
+[19:40:25.721]   Bytes haben sich NICHT geaendert
+[19:40:25.721]   Stelle Original wieder her...
+[19:40:26.023]   Wiederhergestellt: IDENTISCH
+[19:40:26.023] 
+[19:40:26.023] === 6. Feature 0x1A (Collection 0) - Schreibtest ===
+[19:40:26.042] Original 0x1A: 24 03 4C 00 6F 00 67 00 69 00 20 00 52 00 61 00 6C 00 6C 00 79 00 20 00 43 00 61 00 6D 00 65 00 72 00 61 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[19:40:26.042] Setze Byte 1 = 0x00 (war 0x03) ...
+[19:40:26.544]   Zurueckgelesen: 24 03 4C 00 6F 00 67 00 69 00 20 00 52 00 61 00 6C 00 6C 00 79 00 20 00 43 00 61 00 6D 00 65 00 72 00 61 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[19:40:26.544]   Vergleich: Byte 1: 00 -> 03
+[19:40:26.544]   Stelle Original wieder her...
+[19:40:26.545]   Wiederhergestellt: IDENTISCH
+[19:40:26.545] 
+[19:40:26.545] ============================================================
+[19:40:26.545] Phase 3 abgeschlossen!
+[19:40:26.545] Log: C:\Users\KBZ071644\Work Folders\Documents\Rally claude\discovery_phase3_log.txt
+[19:40:26.546] 
+[19:40:26.546] Bitte die Kamera waehrend der Tests beobachten!
+[19:40:26.546] Wenn sie bei einem Test aufgehoert hat sich zu bewegen,
+[19:40:26.546] haben wir den RightSight-Schalter gefunden!

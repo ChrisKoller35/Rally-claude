@@ -1,0 +1,93 @@
+[20:10:03.762] PTZ Lock v2 gestartet - 2026-03-17 20:10:03
+[20:10:03.762] OpenCV Version: 4.13.0
+[20:10:03.762] 
+[20:10:03.762] === Phase 1: Kameras suchen (3 Backends) ===
+[20:10:03.762] Backend: MSMF
+[20:10:08.254]   [MSMF] Device 0: 640x480 | Pan=0.0 Tilt=0.0 Zoom=100.0
+[20:10:37.258]   [MSMF] Device 1: 640x480 | Pan=0.0 Tilt=0.0 Zoom=100.0
+[20:10:37.324] 
+[20:10:37.324] Backend: DSHOW
+[20:10:37.991]   [DSHOW] Device 0: 640x480 | Pan=0.0 Tilt=0.0 Zoom=100.0
+[20:10:38.988]   [DSHOW] Device 1: 640x480 | Pan=-90.0 Tilt=-90.0 Zoom=269.0
+[20:10:39.897] 
+[20:10:39.897] Backend: DEFAULT
+[20:10:44.222]   [DEFAULT] Device 0: 640x480 | Pan=0.0 Tilt=0.0 Zoom=100.0
+[20:11:14.620]   [DEFAULT] Device 1: 640x480 | Pan=0.0 Tilt=0.0 Zoom=100.0
+[20:11:14.728] 
+[20:11:14.728] === Phase 2: PTZ Schreibtests ===
+[20:11:14.728] Test Device 0 (MSMF):
+[20:11:19.290]   PAN = 0.00
+[20:11:19.290]   TILT = 0.00
+[20:11:19.291]   ZOOM = 100.00
+[20:11:19.291]   FOCUS = -1.00
+[20:11:19.291]   AUTOFOCUS = -1.00
+[20:11:19.318]   EXPOSURE = -5.00
+[20:11:19.345]   AUTO_EXPOSURE = 0.00
+[20:11:19.348]   Schreibtest: Pan=True Tilt=True Zoom=True
+[20:11:19.650]   Pan+1 Test: set=True, gelesen=0.0 (war 0.0)
+[20:11:19.650]   >>> PTZ SCHREIBBAR! <<<
+[20:11:19.670] 
+[20:11:19.670] Test Device 1 (MSMF):
+[20:11:49.836]   PAN = 0.00
+[20:11:49.838]   TILT = 0.00
+[20:11:49.840]   ZOOM = 100.00
+[20:11:49.844]   FOCUS = 0.00
+[20:11:49.847]   AUTOFOCUS = 0.00
+[20:11:49.851]   EXPOSURE = -5.00
+[20:11:49.854]   AUTO_EXPOSURE = 0.00
+[20:11:49.864]   Schreibtest: Pan=True Tilt=True Zoom=True
+[20:11:50.170]   Pan+1 Test: set=True, gelesen=0.0 (war 0.0)
+[20:11:50.172]   >>> PTZ SCHREIBBAR! <<<
+[20:11:50.184] 
+[20:11:50.184] Test Device 0 (DSHOW):
+[20:11:50.846]   PAN = 0.00
+[20:11:50.849]   TILT = 0.00
+[20:11:50.850]   ZOOM = 100.00
+[20:11:50.851]   FOCUS = -1.00
+[20:11:50.852]   AUTOFOCUS = -1.00
+[20:11:50.889]   EXPOSURE = -5.00
+[20:11:50.889]   AUTO_EXPOSURE = -1.00
+[20:11:50.899]   Schreibtest: Pan=True Tilt=True Zoom=True
+[20:11:51.202]   Pan+1 Test: set=True, gelesen=1.0 (war 0.0)
+[20:11:51.204]   >>> PTZ SCHREIBBAR! <<<
+[20:11:51.535] 
+[20:11:51.535] Test Device 1 (DSHOW):
+[20:11:52.191]   PAN = 0.00
+[20:11:52.194]   TILT = 0.00
+[20:11:52.197]   ZOOM = 269.00
+[20:11:52.202]   FOCUS = 16.00
+[20:11:52.207]   AUTOFOCUS = 1.00
+[20:11:52.211]   EXPOSURE = -4.00
+[20:11:52.211]   AUTO_EXPOSURE = -1.00
+[20:11:52.245]   Schreibtest: Pan=True Tilt=True Zoom=True
+[20:11:52.556]   Pan+1 Test: set=True, gelesen=1.0 (war 0.0)
+[20:11:52.564]   >>> PTZ SCHREIBBAR! <<<
+[20:11:53.290] 
+[20:11:53.291] Test Device 0 (DEFAULT):
+[20:11:57.609]   PAN = 0.00
+[20:11:57.609]   TILT = 0.00
+[20:11:57.609]   ZOOM = 100.00
+[20:11:57.610]   FOCUS = -1.00
+[20:11:57.610]   AUTOFOCUS = -1.00
+[20:11:57.636]   EXPOSURE = -5.00
+[20:11:57.663]   AUTO_EXPOSURE = 0.00
+[20:11:57.664]   Schreibtest: Pan=True Tilt=True Zoom=True
+[20:11:57.965]   Pan+1 Test: set=True, gelesen=0.0 (war 0.0)
+[20:11:57.966]   >>> PTZ SCHREIBBAR! <<<
+[20:11:57.991] 
+[20:11:57.991] Test Device 1 (DEFAULT):
+[20:12:26.997]   PAN = 0.00
+[20:12:26.999]   TILT = 0.00
+[20:12:27.001]   ZOOM = 100.00
+[20:12:27.005]   FOCUS = 0.00
+[20:12:27.008]   AUTOFOCUS = 0.00
+[20:12:27.012]   EXPOSURE = -5.00
+[20:12:27.015]   AUTO_EXPOSURE = 0.00
+[20:12:27.026]   Schreibtest: Pan=True Tilt=True Zoom=True
+[20:12:27.331]   Pan+1 Test: set=True, gelesen=0.0 (war 0.0)
+[20:12:27.333]   >>> PTZ SCHREIBBAR! <<<
+[20:12:27.343] 
+[20:12:27.343] === Phase 3: PTZ Lock aktiv ===
+[20:12:27.343] Device 1 (DEFAULT) | Ziel: Pan=0.0 Tilt=0.0 Zoom=100.0
+[20:12:27.343] Ctrl+C zum Beenden
+[20:12:27.343] 
